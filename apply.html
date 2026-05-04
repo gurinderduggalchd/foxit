@@ -1,0 +1,148 @@
+<! doctype html>
+
+<html>
+<head>
+<title>FOX-IT - Home </title>
+<link href="styles/style.css" type="text/css" rel="stylesheet" />
+<link rel="icon" href="images/fox.ico" type="image/x-icon">
+</head>
+<body>
+
+<header class="hdr" >
+<a href="index.html"><img src="images/foxit.png" alt="logo" class="hdrlogo" /></a>
+
+<div class="hdrlnk">
+	<ul style="list-style-type:none;margin-top:80px;margin-right:30px;">
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="jobs.html">JOBS</a></li>
+		<li><a href="apply.html">APPLY</a></li>
+		<li><a href="contactus.html">CONTACT US</a></li>
+		<li><a href="services.html">SERVICES</a></li>
+	</ul>
+</div>
+</header>
+<br/><br/>
+<section class="secapp">
+<h1 style="color:red;font-size:200%;">JOB APPLY</h1>
+<br/>
+<form>
+
+<label style="float:left;width:20%;height:auto;margin-left:100px">
+	Job Ref. No. :
+	<input type="text" name="refno" id="refno" placeholder="Enter 5 alphanum. char." maxlength="5" required="required" />
+</label>
+<label style="float:left;width:20%;height:auto;margin-left:20px">
+	First Name : 
+	<input type="text" name="fname" id="fname" placeholder="Enter First Name" maxlength="20" required = "required" />
+</label>
+
+<label style="float:left;width:20%;height:auto;margin-left:20px">
+	Last Name : 
+	<input type="text" name="lname" id="lname" placeholder="Enter Last Name" maxlength="20" required = "required" />
+</label>
+
+<label style="float:left;width:20%;height:auto;margin-left:20px">
+	Date of Birth : 
+	<input type="date" name="dob" id="dob" placeholder="Enter Date of Birth" maxlength="10" required = "required" />
+</label>
+<br/><br/><br/>
+
+<fieldset style="float:left;width:20%;height:auto;margin-left:100px">
+<legend>Gender</legend>
+	<label>
+		Male 
+		<input type="radio" name="gender" id="gender" value="male" checked="checked" />
+	</label>
+	<label>
+		Female
+		<input type="radio" name="gender" id="gender" value="female" />
+	</label>
+</fieldset>
+<label style="float:left;width:30%;height:auto;margin-left:20px">
+	Street Address : 
+	<input type="text" name="addrs" id="addrs" placeholder="Enter Street Address" maxlength="40" required = "required" style="width:100%;top:20px;" />
+</label>
+<label style="float:left;width:30%;height:auto;margin-left:20px">
+	Suburb/Town : 
+	<input type="text" name="town" id="town" placeholder="Enter Suburb/Town" maxlength="40" required = "required" style="width:100%;top:20px;" />
+</label>
+<br/><br/><br/><br/>
+
+<label style="float:left;width:15%;height:auto;margin-left:80px">
+	State : 
+	<input type="text" name="state" id="state" placeholder="Enter State" maxlength="20" required = "required" style="width:60%" />
+</label>
+<label style="float:left;width:25%;height:auto;margin-left:10px">
+	Post Code : 
+	<input type="text" name="lname" id="lname" placeholder="Enter post code" maxlength="4" required = "required" pattern="[0-9]{4}" />
+</label>
+<label style="float:left;width:20%;height:auto;margin-left:10px">
+	Email Address : 
+	<input type="email" name="email" id="email" placeholder="Enter email address" required = "required" />
+</label>
+<label style="float:left;width:20%;height:auto;margin-left:10px">
+	Phone Number : 
+	<input type="tel" name="phno" id="phno" placeholder="999 999 9999" required = "required" pattern="[0-9]{3} [0-9]{3} [0-9]{4}"  />
+</label>
+<br/><br/><br/>
+<fieldset style="width:90%; margin-left:5%">
+<legend>Skills</legend>
+	
+	<label>
+		<input type="checkbox" name="html"/>
+		HTML
+	</label>
+	
+	<label>
+		<input type="checkbox" name="php"/>
+		PHP
+	</label>
+	<label>
+		<input type="checkbox" name="css"/>
+		CSS
+	</label>
+	
+	<label>
+		<input type="checkbox" name="js"/>
+		JAVASCRIPT
+	</label>
+	<label>
+		<input type="checkbox" name="asp"/>
+		ASP.NET
+	</label>
+	<label>
+		<input type="checkbox" name="othr"/>
+		OTHER SKILLS...
+	</label>
+</fieldset>
+<br/><br/>
+<label>
+	Other Skills:
+	<textarea rows=3 cols="50"></textarea>
+</label>
+<br/><br/>
+
+<input type="submit" value="APPLY" />
+<input type="reset" value="CLEAR FORM" />
+
+
+
+</form>
+</section>
+<br/><br/>
+
+<footer class="fotr">
+<h5 style="color:white; font-weight:bold;float:left; margin-left:1%">Copyright &copy; 2019. FOX-IT &reg; All Rights Reserved</h5>
+<div class="fotrlnk">
+	<ul style="list-style-type:none;margin-top:20px;margin-right:30px;">
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="jobs.html">JOBS</a></li>
+		<li><a href="apply.html">APPLY</a></li>
+		<li><a href="contactus.html">CONTACT US</a></li>
+		<li><a href="services.html">SERVICES</a></li>
+	</ul>
+</div>
+</footer>
+</body>
+</html>
+

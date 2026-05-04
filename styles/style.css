@@ -1,0 +1,366 @@
+
+body {
+	margin:0px;
+	background:linear-gradient(
+      rgba(255, 0, 0, 0.25), 
+      rgba(255, 0, 0, 0.25)
+    ), url(../styles/images/bg2.jpg);
+	background-size : 100% auto;
+}
+
+
+.hdr {
+	width:95%;
+	height:150px;
+	border : 2px red solid;
+	border-radius : 25px;
+	margin-left :  2.5%;
+	background:linear-gradient(
+      rgba(255, 0, 0, 0.15), 
+      rgba(255, 0, 0, 0.20)
+    ), url(../images/BannerBg.jpg);
+	background-size: cover;
+}
+
+.hdrlogo {
+	width:28%; 
+	height:auto;
+	float :left;
+	margin-left:10px;
+}
+ 
+.hdrlnk {
+	width : 65%;
+	height : 80px;
+	float : right;
+	margin-left:2%;
+	text-align:right;
+}
+
+div.hdrlnk ul li {
+	display:inline;
+	background-color: red;
+	color:white;
+	margin-right:20px;
+	font-size : 24px;
+	border-style:solid;
+	border-color:be1e2d;
+	border-width:2px;
+	border-radius:10%;
+	text-align:center;
+}
+
+div.hdrlnk ul li a:link{
+	background-color:red;
+	color:white;
+	text-decoration:none;
+}
+				  
+div.hdrlnk ul li a:visited{
+	text-decoration:none;
+	background-color:red;
+	color:white;
+}				  
+				  
+div.hdrlnk  ul li a:hover{
+	text-decoration:none;
+	background-color:orange;
+	color:white;
+}
+
+div.hdrlnk ul li a:active{ 
+	background-color:red;
+	color:white;
+	text-decoration:none;
+}
+
+.sechom {
+	width:95%;
+	height:450px;
+	border : 2px red solid;
+	border-radius : 25px;
+	margin-left :  2.5%;
+	background: linear-gradient(
+      rgba(255, 0, 0, 0.25), 
+      rgba(255, 0, 0, 0.45)
+    ),url(../images/greyBg.jpg);
+	background-size:cover;
+	text-align:center;
+}
+
+div#d1{
+	width:20%;
+	height:220px;
+	background-color:lightblue;
+	margin-left:10%;
+	text-align:center;
+	float:left;
+	border: 2px red solid;
+	color:red;
+	border-radius:20%;
+	transition: transform 1s;
+	
+}
+
+div#d1:hover{
+	background-color:lightyellow;
+	transform: rotate(720deg);
+}
+
+div#d1 a{
+	text-decoration:none;
+	color:red;
+}
+
+div#d2{
+	width:20%;
+	height:220px;
+	background-color:lightblue;
+	margin-left:10%;
+	text-align:center;
+	float:left;
+	border: 2px red solid;
+	color:red;
+	border-radius:20%;
+	transition: transform 1s;
+}
+div#d2 a{
+	text-decoration:none;
+	color:red;
+}
+
+
+div#d2:hover{
+	background-color:lightyellow;
+	transform: rotate(720deg);
+}
+
+div#d3{
+	width:20%;
+	height:220px;
+	background-color:lightblue;
+	margin-left:10%;
+	text-align:center;
+	float:left;
+	border: 2px red solid;
+	color:red;
+	border-radius:20%;
+	transition: transform 1s;
+}
+
+div#d3 a{
+	text-decoration:none;
+	color:red;
+}
+
+div#d3:hover{
+	background-color:lightyellow;
+	transform: rotate(720deg);
+}
+
+.fotr{
+	width:95%;
+	height:80px;
+	border : 2px red solid;
+	border-radius : 25px;
+	margin-left :  2.5%;
+	background:linear-gradient(
+      rgba(255, 0, 0, 0.15), 
+      rgba(255, 0, 0, 0.20)
+    ), url(../images/footer-bg.jpg);
+	text-align:center;
+}
+
+.fotrlnk {
+	width : 60%;
+	height : 50px;
+	float : right;
+	margin-left:1%;
+	text-align:right;
+}
+
+div.fotrlnk ul li {
+	display:inline;
+	background-color: red;
+	color:white;
+	margin-right:20px;
+	font-size : 18px;
+	border-style:solid;
+	border-color:be1e2d;
+	border-width:2px;
+	border-radius:10%;
+	text-align:center;
+}
+
+div.fotrlnk ul li a:link{
+	background-color:red;
+	color:white;
+	text-decoration:none;
+}
+				  
+div.fotrlnk ul li a:visited{
+	text-decoration:none;
+	background-color:red;
+	color:white;
+}				  
+				  
+div.fotrlnk  ul li a:hover{
+	text-decoration:none;
+	background-color:orange;
+	color:white;
+}
+
+div.fotrlnk ul li a:active{ 
+	background-color:red;
+	color:white;
+	text-decoration:none;
+}
+
+
+
+
+
+.secjob{
+	
+	width:68%;
+	height:1700px;
+	border : 2px red solid;
+	border-radius : 25px;
+	margin-left :  2.5%;
+	background: linear-gradient(
+      rgba(255, 0, 0, 0.25), 
+      rgba(255, 0, 0, 0.45)
+    ),url(../images/greyBg.jpg);
+	background-size:100% auto;
+	text-align:center;
+	float:left;
+}
+
+.asdjob{
+	width:25%;
+	height:1700px;
+	border : 2px red solid;
+	border-radius : 25px;
+	margin-right :  2.5%;
+	background: linear-gradient(
+      rgba(255, 0, 0, 0.25), 
+      rgba(255, 0, 0, 0.45)
+    ),url(../images/greyBg.jpg);
+	background-size:100% auto;
+	text-align:center;
+	float:right;
+}
+.fotrjob{
+	width:95%;
+	height:80px;
+	border : 2px red solid;
+	border-radius : 25px;
+	margin-left :  2.5%;
+	background:linear-gradient(
+      rgba(255, 0, 0, 0.15), 
+      rgba(255, 0, 0, 0.20)
+    ), url(../images/footer-bg.jpg);
+	text-align:center;
+	position:absolute;
+	top:1930px;
+}
+
+.job1{
+	width:98%;
+	height:auto;
+	margin-left:1%;
+	text-align:justify;
+}
+
+
+
+.job2{
+	width:98%;
+	height:auto;
+	margin-left:1%;
+	text-align:justify;
+}
+
+.secabt{
+	width:95%;
+	height:500px;
+	border : 2px red solid;
+	border-radius : 25px;
+	margin-left :  2.5%;
+	background: linear-gradient(
+      rgba(255, 0, 0, 0.25), 
+      rgba(255, 0, 0, 0.45)
+    ),url(../images/greyBg.jpg);
+	background-size:cover;
+	
+}
+
+.secapp{
+	width:95%;
+	height:550px;
+	border : 2px red solid;
+	border-radius : 25px;
+	margin-left :  2.5%;
+	background: linear-gradient(
+      rgba(255, 0, 0, 0.25), 
+      rgba(255, 0, 0, 0.45)
+    ),url(../images/greyBg.jpg);
+	background-size:cover;
+	text-align:center;
+}
+
+table, table tr, table td, table th {
+	border : 1px red solid;
+	border-collapse:collapse;
+}
+
+.secenh{
+	width:95%;
+	height:500px;
+	border : 2px red solid;
+	border-radius : 25px;
+	margin-left :  2.5%;
+	background: linear-gradient(
+      rgba(255, 0, 0, 0.25), 
+      rgba(255, 0, 0, 0.45)
+    ),url(../images/greyBg.jpg);
+	background-size:cover;
+	text-align:justify;
+}
+
+div#s1{
+	width:25%;
+	height:350px;
+	background-color:lightblue;
+	margin-left:5%;
+	text-align:center;
+	float:left;
+	border: 2px red solid;
+	color:red;
+	border-radius:20%;
+}
+
+div#s2{
+	width:25%;
+	height:350px;
+	background-color:lightblue;
+	margin-left:5%;
+	text-align:center;
+	float:left;
+	border: 2px red solid;
+	color:red;
+	border-radius:20%;
+}
+
+div#s3{
+	width:28%;
+	height:350px;
+	background-color:lightblue;
+	margin-left:5%;
+	text-align:center;
+	float:left;
+	border: 2px red solid;
+	color:red;
+	border-radius:20%;
+}
+
